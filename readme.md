@@ -20,27 +20,38 @@ A file called `overrides.env` can be added to the config folder and can contain 
 
 <br>
 
-## Install
+## Run
 This project uses Docker to allow easy installation of GDAL on a Windows based system. The project can be run on both Windows (with WSL) or native Linux
 
 https://www.docker.com/products/docker-desktop/
 
 <br>
 
-## Build
+### Build
 
 ```bash
 docker build . -t echoes-climate-projections --network host
 ```
 
-## Run
+### Run
 
 ```bash
 docker run echoes-climate-projections --network host
 ```
 
-## Run with environment flag
+### Run with environment flag
 
 ```bash
 docker run echoes-climate-projections --network host --env=qa
 ```
+
+<br>
+
+
+### Run / debug with Visual Studio Code
+Install the following extensions:
+* [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+
+`F5` to start debugging
+
