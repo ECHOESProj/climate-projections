@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "docker-run: debug",
             "python": {
-                "args": ["--env=qa"],
+                // "args": ["--env=qa"],
                 "pathMappings": [
                     {
                         "localRoot": "${workspaceFolder}",
