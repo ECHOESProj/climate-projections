@@ -25,8 +25,6 @@ This project uses Docker to allow easy installation of GDAL on a Windows based s
 
 https://www.docker.com/products/docker-desktop/
 
-<br>
-
 ### Build
 
 ```bash
