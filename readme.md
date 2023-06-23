@@ -20,6 +20,10 @@ A file called `overrides.env` can be added to the config folder and can contain 
 
 <br>
 
+## Update config
+Before running the application, ensure that relevant credentials and endpoints are set in `base.env` or `dev/qa/production.env` in the `app/config` folder.
+Values can also be set in `overrides.env` for local testing.
+
 ## Run
 This project uses Docker to allow easy installation of GDAL on a Windows based system. The project can be run on both Windows (with WSL) or native Linux
 
